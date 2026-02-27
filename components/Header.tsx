@@ -45,7 +45,7 @@ export default function Header() {
             </a>
           ))}
           <a
-            href="#cta"
+            href="https://timerex.net/s/buyboostjp_bec1/5888121d"
             className="bg-[#00B4C8] text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#009ab0] transition-colors shadow-sm"
           >
             無料面談を予約
@@ -94,7 +94,7 @@ export default function Header() {
             </a>
           ))}
           <a
-            href="#cta"
+            href="https://timerex.net/s/buyboostjp_bec1/5888121d"
             onClick={() => setMenuOpen(false)}
             className="block bg-[#00B4C8] text-white text-center px-5 py-3 rounded-full font-semibold mt-4 hover:bg-[#009ab0] transition-colors"
           >

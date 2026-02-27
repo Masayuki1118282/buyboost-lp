@@ -25,7 +25,7 @@ export default function FloatingCTA() {
             className="md:hidden fixed bottom-0 left-0 right-0 z-50 p-4 bg-white border-t border-gray-200 shadow-lg"
           >
             <a
-              href="#cta"
+              href="https://timerex.net/s/buyboostjp_bec1/5888121d"
               className="block w-full bg-[#F5A623] text-white font-bold py-4 rounded-full text-center text-base shadow-md hover:bg-[#e09520] transition-colors"
             >
               無料面談を予約する →
@@ -34,7 +34,7 @@ export default function FloatingCTA() {
 
           {/* Desktop: fixed bottom-right button */}
           <motion.a
-            href="#cta"
+            href="https://timerex.net/s/buyboostjp_bec1/5888121d"
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             exit={{ scale: 0, opacity: 0 }}

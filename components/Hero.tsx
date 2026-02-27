@@ -44,7 +44,7 @@ export default function Hero() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="#cta"
+                href="https://timerex.net/s/buyboostjp_bec1/5888121d"
                 className="inline-flex items-center justify-center gap-2 bg-[#F5A623] text-white font-bold px-8 py-4 rounded-full text-base shadow-lg hover:bg-[#e09520] transition-all hover:scale-105 active:scale-95"
               >
                 無料面談を予約する

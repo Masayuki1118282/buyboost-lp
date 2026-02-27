@@ -41,7 +41,7 @@ export default function CTA() {
 
           {/* CTA Button */}
           <motion.a
-            href="#"
+            href="https://timerex.net/s/buyboostjp_bec1/5888121d"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.98 }}
             className="inline-flex items-center justify-center gap-3 bg-[#F5A623] text-white font-bold px-10 py-5 rounded-full text-lg shadow-xl hover:bg-[#e09520] transition-colors"
