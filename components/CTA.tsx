@@ -32,7 +32,7 @@ export default function CTA() {
           </div>
 
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
-            まずは<span className="text-[#F5A623]">無料面談</span>から
+            まずは<span className="text-[#F5A623]">無料相談</span>から
           </h2>
           <p className="text-white/85 text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
             「どんなチャンネルが買えるの？」「自分に合った投資額は？」など、
@@ -41,19 +41,19 @@ export default function CTA() {
 
           {/* CTA Button */}
           <motion.a
-            href="https://timerex.net/s/buyboostjp_bec1/5888121d"
+            href="/contact"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.98 }}
             className="inline-flex items-center justify-center gap-3 bg-[#F5A623] text-white font-bold px-10 py-5 rounded-full text-lg shadow-xl hover:bg-[#e09520] transition-colors"
           >
             <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.82v6.361a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
             </svg>
-            Zoomで日程を調整する
+            無料で問い合わせる
           </motion.a>
 
           <p className="text-white/60 text-sm mt-4">
-            ※ZoomのURLは予約完了後にメールにてお送りします
+            ※ご入力後、担当者より1〜2営業日以内にご連絡いたします
           </p>
 
           {/* Trust badges */}
