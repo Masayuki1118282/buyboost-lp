@@ -1,3 +1,5 @@
+import Script from "next/script";
+
 export default function ThanksPage() {
   return (
     <div
@@ -27,6 +29,45 @@ export default function ThanksPage() {
           トップページへ戻る
         </a>
       </div>
+
+      {/* RentTracks コンバージョンタグ */}
+      <Script
+        id="rentracks-cv"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `(function(){
+function loadScriptRTCV(callback){
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = 'https://www.rentracks.jp/js/itp/rt.track.js?t=' + (new Date()).getTime();
+if ( script.readyState ) {
+script.onreadystatechange = function() {
+if ( script.readyState === 'loaded' || script.readyState === 'complete' ) {
+script.onreadystatechange = null;
+callback();
+};
+};
+} else {
+script.onload = function() {
+callback();
+};
+};
+document.getElementsByTagName('head')[0].appendChild(script);
+}
+loadScriptRTCV(function(){
+_rt.sid = 11057;
+_rt.pid = 15822;
+_rt.price = 0;
+_rt.reward = -1;
+_rt.cname = '';
+_rt.ctel = '';
+_rt.cemail = '';
+_rt.cinfo = encodeURIComponent(Date.now().toString());
+rt_tracktag();
+});
+}(function(){}));`,
+        }}
+      />
     </div>
   );
 }
