@@ -45,10 +45,10 @@ export default function Header() {
             </a>
           ))}
           <a
-            href="https://timerex.net/s/buyboostjp_bec1/5888121d"
+            href="/contact"
             className="bg-[#00B4C8] text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#009ab0] transition-colors shadow-sm"
           >
-            無料面談を予約
+            無料で問い合わせる
           </a>
         </nav>
 
@@ -94,11 +94,11 @@ export default function Header() {
             </a>
           ))}
           <a
-            href="https://timerex.net/s/buyboostjp_bec1/5888121d"
+            href="/contact"
             onClick={() => setMenuOpen(false)}
             className="block bg-[#00B4C8] text-white text-center px-5 py-3 rounded-full font-semibold mt-4 hover:bg-[#009ab0] transition-colors"
           >
-            無料面談を予約する
+            無料で問い合わせる
           </a>
         </div>
       </div>
