@@ -29,6 +29,13 @@ export default function Footer() {
           ))}
         </nav>
 
+        {/* Privacy link */}
+        <div className="mb-8">
+          <a href="/privacy" className="text-gray-400 text-sm hover:text-[#00B4C8] transition-colors">
+            プライバシーポリシー
+          </a>
+        </div>
+
         {/* Disclaimer */}
         <div className="border-t border-gray-800 pt-8 space-y-3">
           <p className="text-gray-500 text-xs max-w-3xl mx-auto leading-relaxed">
